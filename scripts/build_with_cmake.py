@@ -15,6 +15,7 @@ def main():
     path_to_cmakelist = os.path.join(this_dir, "..\\.")
     path_to_build = os.path.join(this_dir, "..\\build\\")
     subprocess.run(['cmake', path_to_cmakelist, '-B', path_to_build], check=True)
+    subprocess.run(['cmake', '--build', path_to_build], check=True)
 
 #run
 main()

@@ -7,5 +7,5 @@ class Hex_Tile
     int arbitrary_radius_units;
     public:
     Hex_Tile(int x_coordinate, int y_coordinate, int rotation, int arbitrary_radius_units): 
-        x_coordinate(x_coordinate), y_coordinate(y_coordinate), rotation(rotation), arbitrary_radius_units(arbitrary_radius_units)
+        x_coordinate(x_coordinate), y_coordinate(y_coordinate), rotation(rotation), arbitrary_radius_units(arbitrary_radius_units){};
 };
