@@ -2,8 +2,8 @@
 
 struct Point
 {
-    int x;
-    int y;
+    double x;
+    double y;
 
-    Point(int x, int y): x(x), y(y){};
+    Point(double x, double y): x(x), y(y){};
 };
