@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "HEX",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/Debug/Hex.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "console": "externalTerminal"
+        }
+    ],
+    "version": "2.0.0"
+}
